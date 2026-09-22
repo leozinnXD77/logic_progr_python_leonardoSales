@@ -12,6 +12,7 @@ escrevendo o passo a passo:
 agora simplifique:
 
 '''
+
 import time
 import time
 import time
@@ -25,6 +26,8 @@ import time
 import time
 
 # o import time (e a quantidade de quantos tem) deixa em cada print, um time de 5 segundos.
+
+#===============================================================================
 
 def fritar_batata_frita(porção):
     print('-' * 35)
@@ -51,7 +54,8 @@ def fritar_batata_frita(porção):
     print("10. pronto, pode comer :)")
     time.sleep(5)
     
-    
+#===============================================================================
+
     if porção.lower() == 'uma porção':
         resultado = 'batata frita com porção pequena!'
     
@@ -62,6 +66,8 @@ def fritar_batata_frita(porção):
         resultado = 'batata frita com porção grande!' 
     
     return resultado
+
+#===============================================================================
 
 meu_lanche = fritar_batata_frita("duas porções")
 print(f'\nmeu lanche vai ser : {meu_lanche}\n')
